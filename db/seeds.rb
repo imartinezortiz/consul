@@ -53,10 +53,10 @@ Setting["place_name"] = "Consul-land"
 # Feature flags
 Setting['feature.debates'] = true
 Setting['feature.spending_proposals'] = true
-Setting['feature.twitter_login'] = false
-Setting['feature.facebook_login'] = false
-Setting['feature.google_login'] = false
+Setting['feature.twitter_login'] = true
+Setting['feature.facebook_login'] = true
+Setting['feature.google_login'] = true
 Setting['feature.saml_login'] = true
 Setting['feature.public_stats'] = true
-Setting['feature.registration'] = false
-Setting['feature.userpassword'] = false
+Setting['feature.registration'] = true
+Setting['feature.userpassword'] = true

@@ -9,6 +9,6 @@ cd /vagrant
 bundle install
 sed -e 's/@pgusername@/consul/' -e 's/@pgpassword@/consul/' config/database.yml.example > config/database.yml
 cp config/secrets.yml.example config/secrets.yml
-bin/rake db:setup
-bin/rake db:dev_seed
-RAILS_ENV=test bin/rake db:setup
+rake db:setup
+rake db:dev_seed
+RAILS_ENV=test rake db:setup

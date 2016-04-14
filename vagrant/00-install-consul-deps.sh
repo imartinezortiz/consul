@@ -47,6 +47,6 @@ yum install -y nodejs gcc-c++ make
 # Install PhantomJS 2.1.1
 curl -sSL -O https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
 tar -xjvf phantomjs-2.1.1-linux-x86_64.tar.bz2
-cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
+cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/bin
 rm -fr phantomjs-2.1.1-linux-x86_64
 rm -f phantomjs-2.1.1-linux-x86_64.tar.bz2
